@@ -1,9 +1,5 @@
-title = Borealium — tools for the small languages of the Nordic countries
+title = Borealium — reaiddut davviriikkaid smávva gielaid várás
 description =
-  Borealium gathers all tools and language support
-  for small Nordic languages in one place.
-  One can search, choose a language below, or just
-  explore everything available: spelling checkers, grammar checkers,
-  dictionaries, keyboards and more.
-  Almost everything is for free, and built with open source.
-subtitle = Find resources for the languages below:
+    Borealium bokte gávdná buot davviriikkaid smávit gielaid reaidduid ja resurssaid seamma báikkis.
+    Dás sáhttá ohcat, válljet giela vuolábealde, dahje dušše bláđet visot čađa: čállindárkkisteddjiid, grammatihkadárkisteddjiid, sátnegirjiid, boallobevddiid ja vel eanet.
+subtitle = Gávnna resursaid gielaid várás dás vuolábealde.
