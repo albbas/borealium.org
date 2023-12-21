@@ -207,12 +207,20 @@ function _t(site: Site, url: string, bundleFn: () => FluentBundle) {
   return message.bind(null, bundle, logger, url)
 }
 
+<<<<<<< HEAD
 function* findFtlFiles(rootPath: string) {
   for (const item of walkSync(rootPath, { includeDirs: false, exts: ["ftl"] })) {
     const [dir, filename] = relative(rootPath, item.path).split("_slash_")
     const [name] = filename.split(".")
     const chunks = dir.split("/")
     const lang = chunks.shift() ?? "en"
+=======
+function* findFltFiles(rootPath: string) {
+  for (const item of walkSync(rootPath, { includeDirs: false, exts: ["ftl"] })) {
+    const [name, lang] = item.name.split(".")
+
+    const chunks = relative(rootPath, item.path).split("/")
+>>>>>>> 8d8efa7 (ftl is the official Fluent file extension)
     chunks.pop()
     if (name !== "index") {
       chunks.push(name)
