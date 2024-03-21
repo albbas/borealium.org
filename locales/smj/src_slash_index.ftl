@@ -1,0 +1,1 @@
+../../src/index.smj.ftl
