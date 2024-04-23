@@ -226,6 +226,7 @@ function* findFltFiles(rootPath: string) {
       chunks.push(name)
     }
 
+    console.log(name, lang, item.name, item.path, chunks)
     yield {
       name,
       lang,
